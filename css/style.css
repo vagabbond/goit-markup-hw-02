@@ -1,0 +1,60 @@
+:root {
+  --second-color: #2196f3;
+  --paragraph-color: #757575;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+.nav-links .link {
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+}
+.contacts {
+  color: var(--paragraph-color);
+  font-weight: 500;
+  font-size: 14px;
+}
+.link:hover,
+.link:focus {
+  color: var(--second-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--second-color);
+}
+.main-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+}
+.order {
+  color: #ffffff;
+  background-color: var(--second-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+.features h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.features p {
+  color: var(--paragraph-color);
+  font-size: 14px;
+}
+.team-title,
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.team p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+}
