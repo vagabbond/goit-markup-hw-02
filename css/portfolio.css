@@ -11,6 +11,9 @@ body {
 .list {
   list-style: none;
 }
+.hidden {
+  opacity: 0;
+}
 /*Header */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -49,63 +52,48 @@ body {
 /*Header end*/
 
 /*Main*/
-.offer,
-.footer {
-  background-color: var(--background-color);
-}
-.offer {
-  text-align: center;
-}
-.main-title {
-  color: #ffffff;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-}
-.btn {
+
+/*Buttons*/
+.button {
+  cursor: pointer;
+  color: #212121;
+  background-color: #f5f4fa;
+
   font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.button:hover,
+.button:focus {
   color: #ffffff;
   background-color: var(--second-color);
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-}
-.hidden {
-  opacity: 0;
-}
-.text {
-  color: var(--paragraph-color);
-  font-size: 14px;
-  line-height: 1.7;
-}
-.subtitle {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: var(--main-line-height);
-  text-transform: uppercase;
 }
 
-.team-title,
-.work-title {
+/*Title*/
+.gallery-title {
   font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  line-height: var(--main-line-height);
+  font-size: 18px;
+  line-height: 2;
 }
-.subject {
-  font-weight: 500;
+
+/*Subtitle*/
+.gallery-subtitle {
   font-size: 16px;
-  line-height: var(--main-line-height);
+  line-height: 1.8;
+  color: #757575;
 }
-.caption {
-  color: var(--paragraph-color);
-  font-size: 16px;
-  line-height: var(--main-line-height);
+
+.reference {
+  text-decoration: none;
+  color: inherit;
 }
 /*Main end*/
 
 /*Footer*/
+.footer {
+  background-color: var(--background-color);
+}
 .footer-span {
   color: #ffffff;
 }
